@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-color:#23252C;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #23252C;
+}
+.Nav--pic{
+    width: 30em;
+    display: flex;
+    border-radius: 1em 1em 0 0;
+}
+main{
+    max-width: 30em;
+    background-color: #1A1B21;
+}
+.Main--Name,.Main--Profession,.Main--Website{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: Space-evenly;
+}
+.Main--Name{
+    padding-top: 1.7em;
+    font-weight: 700;
+    font-size: 2em;
+}
+.Main--Profession{
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #F3BF99;
+    margin: 0.4em 4.5em;
+}
+.Main--Website{
+    -top: 0.7em;
+    font-weight: 400;
+    font-size: 0.7em;
+    color: #F5F5F5;
+}
+.Main--About,.Main--Description{
+    margin: 0 0 2.2em 2.2em;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items:flex-start;
+    font-weight : 600;
+    font-size: 1em;
+    color: #F5F5F5;
+}
+.Main--Content1,.Main--Content2{
+    margin: 0 0 2.2em 2.2em;
+    margin-bottom: 1em;
+    line-height: 1.7em;
+    display: flex;
+    align-items:flex-start;
+    font-weight: 400;
+    font-size: 0.7em;
+    color: #F5F5F5;
+}
+section{
+    width: 30em;
+    background-color: #161619;
+    display: flex;
+    padding: 1em 0 1em 0;
+    justify-content: space-evenly; 
+}
